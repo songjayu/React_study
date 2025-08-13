@@ -23,3 +23,5 @@ arrC[0] = 'hello';
 console.log(item1, item2);
 
 console.log(arrA);
+
+console.log(10 + "20")
