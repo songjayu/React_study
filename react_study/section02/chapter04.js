@@ -16,18 +16,31 @@ let obj2 = {
     d : 4,
 };
 
-function funcA(p1, p2, p3) {
-    console.log(p1, p2, p3);
-}
+// function funcA(p1, p2, p3) {
+//     console.log(p1, p2, p3);
+// }
 
-funcA(...arr1);
+// funcA(...arr1);
+
+
+
 
 // 2. Rest 매개변수
 // -> Rest는 나머지, 나머지 매개변수
 
+// one에는 인자의 첫 값이 저장되고, 이후 나머지 인자들이 rest에 저장됨(2, 3, 4, ...)
 function funcB(one, ...rest){ // 1. rest 매개변수 뒤에는  ,four 못함
                                 // 2. ...rest 말고 ...(아무말) 써도 됨
     console.log(rest);
 }
 
 funcB(...arr1);
+
+
+
+let obj3 = (...rest) => {
+    console.log(rest);
+}
+
+
+obj3([1,2,3,4,5,6,7])
