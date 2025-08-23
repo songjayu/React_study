@@ -56,4 +56,4 @@ console.log(date1);  // 변경됨
 
 // 5. 시간을 여러 포맷으로 출력하기
 console.log(date1.toDateString());   // 시분초를 제거
-console.log(date1.toLocaleString());
+console.log(date1.toLocaleString());  // 우리나라에 맞게 현지화된 형태로 시간이 문자열로 출력
