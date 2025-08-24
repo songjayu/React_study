@@ -1,0 +1,4 @@
+# git에 어떤 파일을 제외하고 커밋할지를 지정할 수 있다!
+
+# node_modules 무시
+node_modules/
