@@ -12,7 +12,9 @@ export default function multiply(a, b){ // export 뒤에 default를 붙이면 mu
     return a + b;
 }
 
-
+function div(a, b){
+    return a / b;
+}
 
 // commonJS
 // 모듈이라는 내장 객체에 exports라는 프로퍼티의 값으로 객체를 저장한다.
