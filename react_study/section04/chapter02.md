@@ -16,11 +16,12 @@
 
 ##### 방법
 
-1. 터미널에 `npm create vite@latest` 명령어를 입력
+1. 터미널에 `npm create vite@latest` 명령어로 vite으로 작동되는 리액트앱 생성
 2. 프로젝트 이름, 프레임워크 등의 정보를 설정함
-3. 근데 Node_modules나 package-lock.json 파일이 없음 –> 그래서 package.json의 정보를 기반으로 설치해야 함
+3. **(초기설정)** 근데 Node_modules나 package-lock.json 파일이 없음 –> 그래서 package.json의 정보를 기반으로 설치해야 함
    - 터미널에서 `npm i` 입력
    - Node_modules에 엄청난 수의 라이브러리들이 추가됨…!
+4. npm run dev로 리액트앱 가동
 
 
 
